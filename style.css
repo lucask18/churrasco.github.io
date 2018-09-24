@@ -1,0 +1,163 @@
+
+
+html { overflow: scroll; }
+
+body{
+	color: #c0c5ce;
+	font-size: 14px;
+	font-family: "Times new Roman"
+	overflow: hidden;
+	background-color: black;
+	position: relative;
+	overflow: scroll;
+
+
+}
+h1{
+	font-style: bold;
+	font-size: 6em;
+	text-align: center;
+	font-family: "Times new Roman";
+	position:relative;
+	top: -60px;
+
+}
+
+
+
+h2{
+	color: white;
+
+}
+
+
+
+
+
+
+.subtitle{
+	position: relative;
+	top: -110px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+.center{
+	margin: 0 auto;
+	display: block;
+	border-style: solid;
+	border-color: grey;
+	border-width: 1px;
+
+
+}
+
+.butc{
+	display: inline-block;
+    border: none;
+    background-color: #722f37;
+    padding: 17px 28px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    text-decoration-line: none;
+    width: 21%;
+
+}
+
+
+.buta{
+	display: inline-block;
+	width: 21%;
+	position: fixed;
+    bottom: 0%;
+    right: 25%;
+    border: none;
+    background-color: #722f37;
+    padding: 17px 28px;
+    font-size: 20px;
+    color: white;
+    text-decoration-line: none;
+    text-align: center;
+}
+.butu{
+	display: inline-block;
+    border: none;
+    background-color: #722f37;
+    padding: 17px 28px;
+    font-size: 20px;
+    color: white;
+    text-decoration-line: none;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    width: 21%;
+    left:25%;
+
+}
+.butt{
+	display: inline-block;
+	width: 21%;
+    border: none;
+    background-color: #722f37;
+    padding: 17px 28px;
+    font-size: 20px;
+    color: white;
+    text-decoration-line: none;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    right: 0%
+}
+.butc:hover {
+	background: grey;
+}
+.butu:hover {
+	background: grey;
+}
+.buta:hover {
+	background: grey;
+}
+.butt:hover {
+	background: grey;
+}
+
+
+
+}
+ol li::before{
+	color: red;
+	font-size: 1.5em;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+ 	text-decoration-line: none;
+	font-size: 1.5em;
+	color: white;
+	font-style: italic;
+}
+.links{
+	text-decoration-line: none;
+	font-size: 1.5em;
+	color: white;
+	font-style: italic;
+}
+.recommendations{
+	text-decoration-line: none;
+	font-size: 1em;
+	color: white;
+	font-style: italic;
+}
+
+
+
