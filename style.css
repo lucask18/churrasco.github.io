@@ -1,16 +1,17 @@
 
-
+#c0c5ce
 html { overflow: scroll; }
-
+.custom{
+	cursor: url(meat.png) auto;
+}
 body{
 	color: #c0c5ce;
 	font-size: 14px;
 	font-family: "Times new Roman"
 	overflow: hidden;
-	background-color: black;
+	background-color:black;
 	position: relative;
 	overflow: scroll;
-
 
 }
 h1{
@@ -69,6 +70,7 @@ h4{
     text-align: center;
     text-decoration-line: none;
     width: 21%;
+    left:0%;
 
 }
 
@@ -155,11 +157,27 @@ ol li::before{
 	color: #9b414c;
 	font-style: italic;
 }
+.links:hover{
+	color:grey;
+	text-decoration-line: underline;
+}
+.links:active{
+	color:green;
+	text-decoration-line: line-through;
+}
 .recommendations{
 	text-decoration-line: none;
 	font-size: 1em;
 	color: white;
 	font-style: italic;
+}
+.recommendations:hover{
+	color: grey;
+	text-decoration-line: underline;
+}
+.recommendations:active{
+	color:green;
+	text-decoration-line: line-through;
 }
 .titulos{
 	text-decoration-line: none;
@@ -169,12 +187,31 @@ ol li::before{
 	color: #9b414c;
 }
 .linktext {
-	
+	color: white;
+}
+.linktext:visited{
+	color:#5593f7;
+
 }
 .linktext:hover{
-	color: blue;
+	color: grey;
 
 }
+.linktext:active{
+	color:green;
+	text-decoration-line: line-through;
+}
+.musicplayer{
 
+	position: fixed;
+	right: -20%;
+	opacity: 0.2;
+}
+.underphoto{
+	text-decoration-line: none;
+	font-size: 1em;
+	color: white;
+	font-style: italic;
+}
 
 
