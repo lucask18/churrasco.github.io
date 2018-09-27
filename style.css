@@ -7,8 +7,7 @@ html { overflow: scroll; }
 body{
 	color: #c0c5ce;
 	font-size: 14px;
-	font-family: "Times new Roman"
-	overflow: hidden;
+	font-family: sans-serif;
 	background-color:black;
 	position: relative;
 	overflow: scroll;
@@ -18,7 +17,7 @@ h1{
 	font-style: bold;
 	font-size: 6em;
 	text-align: center;
-	font-family: "Times new Roman";
+	font-family: sans-serif;
 	position:relative;
 	top: -60px;
 
@@ -33,9 +32,6 @@ h2{
 h4{
 	color: white;
 }
-
-
-
 
 
 
@@ -71,6 +67,7 @@ h4{
     text-decoration-line: none;
     width: 21%;
     left:0%;
+    transition: background-color 0.5s ease;
 
 }
 
@@ -88,6 +85,7 @@ h4{
     color: white;
     text-decoration-line: none;
     text-align: center;
+    transition: background-color 0.5s ease;
 }
 .butu{
 	display: inline-block;
@@ -102,6 +100,7 @@ h4{
     text-align: center;
     width: 21%;
     left:25%;
+    transition: background-color 0.5s ease;
 
 }
 .butt{
@@ -116,19 +115,24 @@ h4{
     position: fixed;
     bottom: 0%;
     text-align: center;
-    right: 0%
+    right: 0%;
+    transition: background-color 0.5s ease;
 }
 .butc:hover {
 	background: grey;
+	color: black;
 }
 .butu:hover {
 	background: grey;
+	color: black;
 }
 .buta:hover {
 	background: grey;
+	color: black;
 }
 .butt:hover {
 	background: grey;
+	color: black;
 }
 
 
@@ -186,32 +190,48 @@ ol li::before{
 	font-style: italic;
 	color: #9b414c;
 }
+
 .linktext {
 	color: white;
 }
+
 .linktext:visited{
 	color:#5593f7;
-
 }
+
 .linktext:hover{
 	color: grey;
-
 }
+
 .linktext:active{
 	color:green;
 	text-decoration-line: line-through;
 }
-.musicplayer{
 
+.musicplayer{
 	position: fixed;
 	right: -20%;
 	opacity: 0.2;
+
 }
+
 .underphoto{
 	text-decoration-line: none;
 	font-size: 1em;
 	color: white;
 	font-style: italic;
 }
+table{
+
+	margin-left: 24%;
+	border :1px solid;
+}
+
+tr, td{
+	border:1px solid white;
+	font-size: 1.3em;
+	padding: 10px;
+}
+
 
 
